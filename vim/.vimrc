@@ -16,16 +16,16 @@ call vundle#rc()                  " Use Vundle to manage plugins
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
 Bundle 'gmarik/vundle'
-Bundle 'scrooloose/nerdtree.git'
 Bundle 'tpope/vim-surround.git'
 Bundle 'scrooloose/syntastic.git'
+Bundle 'scrooloose/nerdtree.git'
 Bundle 'cakebaker/scss-syntax.vim.git'
 Bundle 'Lokaltog/vim-powerline.git'
 
+filetype plugin indent on         " load file type plugins + indentation
 syntax enable
 set encoding=utf-8
 set showcmd                       " display incomplete commands
-filetype plugin indent on         " load file type plugins + indentation
 
 "" Whitespace
 set nowrap                        " don't wrap lines

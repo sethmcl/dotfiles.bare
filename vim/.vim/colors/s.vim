@@ -18,7 +18,7 @@ if version > 580
 	syntax reset
     endif
 endif
-let g:colors_name="desert-c"
+let g:colors_name="s"
 
 hi Normal	guifg=White guibg=grey20
 
@@ -67,6 +67,7 @@ hi Ignore	guifg=grey40
 hi Todo		guifg=orangered guibg=yellow2
 
 " color terminal definitions
+"hi normal-cterm	ctermfg=White ctermbg=80
 hi SpecialKey	ctermfg=darkgreen
 hi NonText	cterm=bold ctermfg=darkblue
 hi Directory	ctermfg=darkcyan
@@ -75,7 +76,7 @@ hi IncSearch	cterm=NONE ctermfg=yellow ctermbg=green
 hi Search	cterm=NONE ctermfg=black ctermbg=33
 hi MoreMsg	ctermfg=darkgreen
 hi ModeMsg	cterm=NONE ctermfg=brown
-hi LineNr	ctermfg=3
+hi LineNr	ctermfg=235
 hi Question	ctermfg=green
 hi StatusLine	cterm=bold,reverse
 hi StatusLineNC cterm=reverse
@@ -91,7 +92,7 @@ hi DiffAdd	ctermbg=4
 hi DiffChange	ctermbg=5
 hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
 hi DiffText	cterm=bold ctermbg=1
-hi Comment	ctermfg=darkcyan
+hi Comment	ctermfg=244
 hi Constant	ctermfg=brown
 hi Special	ctermfg=5
 hi Identifier	ctermfg=6
@@ -104,8 +105,8 @@ hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
 
 " Tab lines
-hi TabLine      guifg=#333 guibg=#222 gui=none ctermfg=201 ctermbg=232 cterm=none
+hi TabLine      guifg=#333 guibg=#222 gui=none ctermfg=185 ctermbg=235 cterm=none
 hi TabLineSel   guifg=#666 guibg=#222 gui=bold ctermfg=184 ctermbg=232 cterm=bold
-hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=254 ctermbg=54 cterm=none
+hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=184 ctermbg=235 cterm=none
 
 "vim: sw=4
