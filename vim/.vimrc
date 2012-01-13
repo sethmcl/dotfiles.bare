@@ -51,7 +51,7 @@ set listchars+=precedes:<
 
 "" Colors
 set t_Co=256
-colorscheme desert-c
+colorscheme s
 
 "" Text manipulation
 nmap <F6> :m+<CR>                  " move line of text down 
