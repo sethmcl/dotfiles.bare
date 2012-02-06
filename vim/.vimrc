@@ -21,6 +21,7 @@ Bundle 'scrooloose/syntastic.git'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'cakebaker/scss-syntax.vim.git'
 Bundle 'Lokaltog/vim-powerline.git'
+Bundle 'tpope/vim-fugitive.git'
 
 filetype plugin indent on         " load file type plugins + indentation
 syntax enable
@@ -54,8 +55,8 @@ set t_Co=256
 colorscheme s
 
 "" Text manipulation
-nmap <F6> :m+<CR>                  " move line of text down 
 nmap <F7> :m--<CR>                 " move line of text up
+nmap <F6> :m+<CR>                  " move line of text down 
 "nnoremap <A-j> :m+<CR>==          " move line of text down
 "nnoremap <A-k> :m-2<CR>==         " move line of text up
 "inoremap <A-j> <Esc>:m+<CR>==gi   " move line of text down
