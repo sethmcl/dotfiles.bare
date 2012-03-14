@@ -22,6 +22,10 @@ Bundle 'scrooloose/nerdtree.git'
 Bundle 'cakebaker/scss-syntax.vim.git'
 Bundle 'Lokaltog/vim-powerline.git'
 Bundle 'tpope/vim-fugitive.git'
+Bundle 'git://repo.or.cz/vcscommand.git'
+Bundle 'hujinpu/js-test-driver-vim-plugin.git'
+Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'mileszs/ack.vim'
 
 filetype plugin indent on         " load file type plugins + indentation
 syntax enable
@@ -50,6 +54,8 @@ set listchars+=trail:.            " show trailing whitespace as dots
 set listchars+=extends:>
 set listchars+=precedes:<
 
+map <C-m> <ESC>
+
 "" Colors
 set t_Co=256
 colorscheme s
@@ -57,19 +63,14 @@ colorscheme s
 "" Text manipulation
 nmap <F7> :m--<CR>                 " move line of text up
 nmap <F6> :m+<CR>                  " move line of text down 
-"nnoremap <A-j> :m+<CR>==          " move line of text down
-"nnoremap <A-k> :m-2<CR>==         " move line of text up
-"inoremap <A-j> <Esc>:m+<CR>==gi   " move line of text down
-"inoremap <A-k> <Esc>:m-2<CR>==gi  " move line of text up
-"vnoremap <A-j> :m'>+<CR>gv=gv     " move line of text down
-"vnoremap <A-k> :m-2<CR>gv=gv      " move line of text up
 
 "" NERDTree Bindings
 nmap <C-p> :NERDTreeToggle<CR>
 
+"" Command-T Bindings
+nmap <C-t> :CommandT<CR>
+
 "" Tab bindings
-nmap <C-h> :tabp<CR>
-nmap <C-l> :tabn<CR>
 
 "" Syntastic
 set statusline+=%#warningmsg#
