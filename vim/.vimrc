@@ -26,6 +26,7 @@ Bundle 'git://repo.or.cz/vcscommand.git'
 Bundle 'hujinpu/js-test-driver-vim-plugin.git'
 Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'mileszs/ack.vim'
+Bundle 'jimmyhchan/dustjs.vim'
 
 filetype plugin indent on         " load file type plugins + indentation
 syntax enable
@@ -71,6 +72,8 @@ nmap <C-p> :NERDTreeToggle<CR>
 nmap <C-t> :CommandT<CR>
 
 "" Tab bindings
+nmap <C-l> :tabn<CR>
+nmap <C-h> :tabp<CR>
 
 "" Syntastic
 set statusline+=%#warningmsg#
