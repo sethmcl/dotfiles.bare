@@ -27,6 +27,9 @@ Bundle 'hujinpu/js-test-driver-vim-plugin.git'
 Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'mileszs/ack.vim'
 Bundle 'jimmyhchan/dustjs.vim'
+Bundle 'MarcWeber/vim-addon-mw-utils.git'
+Bundle 'tomtom/tlib_vim'
+Bundle 'snipmate-snippets'
 Bundle 'garbas/vim-snipmate.git'
 
 filetype plugin indent on         " load file type plugins + indentation
