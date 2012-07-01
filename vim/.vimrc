@@ -36,6 +36,7 @@ Bundle 'lambdalisue/nodeunit.vim.git'
 Bundle 'reinh/vim-makegreen.git'
 Bundle 'godlygeek/tabular.git'
 Bundle 'pangloss/vim-javascript.git'
+Bundle 'majutsushi/tagbar.git'
 
 filetype plugin indent on         " load file type plugins + indentation
 syntax enable
