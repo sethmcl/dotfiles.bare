@@ -90,3 +90,11 @@ set statusline+=%*
 
 "" Added for Powerline
 set laststatus=2                  " always show the statusline
+
+"" Tabularize
+if exists(":Tabularize")
+  nmap <Leader>a= :Tabularize /=<CR>
+  vmap <Leader>a= :Tabularize /=<CR>
+  nmap <Leader>a: :Tabularize /:<CR>
+  vmap <Leader>a: :Tabularize /:<CR>
+endif
