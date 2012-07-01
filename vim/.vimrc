@@ -31,6 +31,10 @@ Bundle 'MarcWeber/vim-addon-mw-utils.git'
 Bundle 'tomtom/tlib_vim'
 Bundle 'snipmate-snippets'
 Bundle 'garbas/vim-snipmate.git'
+Bundle 'https://github.com/scrooloose/nerdcommenter.git'
+Bundle 'lambdalisue/nodeunit.vim.git'
+Bundle 'reinh/vim-makegreen.git'
+Bundle 'godlygeek/tabular.git'
 
 filetype plugin indent on         " load file type plugins + indentation
 syntax enable
