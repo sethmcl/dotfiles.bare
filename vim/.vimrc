@@ -38,6 +38,7 @@ Bundle 'godlygeek/tabular.git'
 Bundle 'pangloss/vim-javascript.git'
 Bundle 'majutsushi/tagbar.git'
 Bundle 'vim-scripts/jsbeautify.git'
+Bundle 'tpope/vim-unimpaired.git'
 
 filetype plugin indent on         " load file type plugins + indentation
 syntax enable
