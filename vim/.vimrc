@@ -38,6 +38,8 @@ Bundle 'godlygeek/tabular.git'
 Bundle 'pangloss/vim-javascript.git'
 Bundle 'majutsushi/tagbar.git'
 Bundle 'suan/vim-instant-markdown.git'
+Bundle 'vim-scripts/jsbeautify.git'
+Bundle 'tpope/vim-unimpaired.git'
 
 filetype plugin indent on         " load file type plugins + indentation
 syntax enable
@@ -78,6 +80,7 @@ nmap <F6> :m+<CR>                  " move line of text down
 
 "" NERDTree Bindings
 nmap <C-p> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
 
 "" Command-T Bindings
 nmap <C-t> :CommandT<CR>
