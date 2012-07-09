@@ -37,6 +37,7 @@ Bundle 'reinh/vim-makegreen.git'
 Bundle 'godlygeek/tabular.git'
 Bundle 'pangloss/vim-javascript.git'
 Bundle 'majutsushi/tagbar.git'
+Bundle 'suan/vim-instant-markdown.git'
 
 filetype plugin indent on         " load file type plugins + indentation
 syntax enable
