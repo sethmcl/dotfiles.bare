@@ -12,5 +12,5 @@ PATH=$PATH:$HOME/bin
 
 export SVN_EDITOR=vim
 export EDITOR=/usr/bin/vim
-export PS1="\[$(tput bold)\]\[$(tput setaf 4)\]\u\[$(tput setaf 6)\]@\h \[$(tput setaf 2)\]\w\[$(tput setaf 7)\] \[$(tput sgr0)\]"
+export PS1=" \[$(tput bold)\]\[$(tput setaf 4)\]\u\[$(tput setaf 6)\]@\h \[$(tput setaf 2)\]\w\[$(tput setaf 7)\] \[$(tput sgr0)\]"
 export TERM="xterm-256color"

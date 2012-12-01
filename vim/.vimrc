@@ -15,6 +15,7 @@ call vundle#rc()                  " Use Vundle to manage plugins
 "
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle command are not allowed..
+Bundle 'chrisbra/color_highlight.git'
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-surround.git'
 Bundle 'scrooloose/syntastic.git'
@@ -83,10 +84,10 @@ nmap <C-p> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
 "" Command-T Bindings
-nmap <C-t> :CommandT<CR>
+nmap <C-s> :CommandT<CR>
 
 "" Tab bindings
-nmap <C-l> :tabn<CR>
+nmap <C-t> :tabn<CR>
 nmap <C-h> :tabp<CR>
 
 "" Syntastic
@@ -98,6 +99,7 @@ set statusline+=%*
 set laststatus=2                  " always show the statusline
 
 "" Tabularize
+let mapleader=','
 if exists(":Tabularize")
   nmap <Leader>a= :Tabularize /=<CR>
   vmap <Leader>a= :Tabularize /=<CR>
@@ -106,6 +108,7 @@ if exists(":Tabularize")
 endif
 
 "" Dvorak bindings
+nnoremap t l
 "no d h
 "no h j
 "no t k

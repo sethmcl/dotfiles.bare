@@ -105,7 +105,7 @@ hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
 
 " Tab lines
-hi TabLine      guifg=#333 guibg=#222 gui=none ctermfg=185 ctermbg=235 cterm=none
+hi TabLine      guifg=#333 guibg=#222 gui=none ctermfg=0 ctermbg=255 cterm=none
 hi TabLineSel   guifg=#666 guibg=#222 gui=bold ctermfg=184 ctermbg=232 cterm=bold
 hi TabLineFill  guifg=#999 guibg=#222 gui=none ctermfg=184 ctermbg=235 cterm=none
 
